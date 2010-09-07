@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>constraint
+	"$0"</string>
+	<key>name</key>
+	<string>Constraint Group</string>
+	<key>uuid</key>
+	<string>0F292719-7F5A-4A11-BF47-6C85EC4F6072</string>
+</dict>
+</plist>

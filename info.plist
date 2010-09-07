@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>680CC938-096F-4483-8456-6513C4E69954</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>680CC938-096F-4483-8456-6513C4E69954</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>0F292719-7F5A-4A11-BF47-6C85EC4F6072</string>
+					<string>715CBD2F-F1BF-4FD7-A81D-F7D613DB0C72</string>
+				</array>
+				<key>name</key>
+				<string>Insert</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>name</key>
+	<string>BONc</string>
+	<key>ordering</key>
+	<array>
+		<string>70C28272-71A2-48F5-BB3F-DC1310786790</string>
+		<string>0F292719-7F5A-4A11-BF47-6C85EC4F6072</string>
+		<string>715CBD2F-F1BF-4FD7-A81D-F7D613DB0C72</string>
+	</array>
+	<key>uuid</key>
+	<string>D16D041C-18FB-4D48-B8A9-C2D8C67CBB2F</string>
+</dict>
+</plist>

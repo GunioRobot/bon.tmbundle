@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>system_chart
+	$0
+end</string>
+	<key>name</key>
+	<string>System Chart</string>
+	<key>uuid</key>
+	<string>715CBD2F-F1BF-4FD7-A81D-F7D613DB0C72</string>
+</dict>
+</plist>

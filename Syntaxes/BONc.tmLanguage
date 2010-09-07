@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>bon</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>(?i)^\s*+(system_chart|cluster_chart|constraint|creation_chart|scenario_chart|event_chart|class_chart).*</string>
+	<key>foldingStopMarker</key>
+	<string>(?i)^\s*+(end).*</string>
+	<key>name</key>
+	<string>BONc</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(system_chart|cluster_chart|class_chart|constraint|end|cluster|class|indexing|part|query|command|explanation|description|scenario|creation_chart|creator|creates|scenario_chart|involves|event|event_chart|incoming|outgoing)\b</string>
+			<key>name</key>
+			<string>keyword.control.untitled</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>string.quoted.double.untitled</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\\n</string>
+					<key>name</key>
+					<string>constant.character.break</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\-\-(.[\t\s\w\W]+))</string>
+			<key>name</key>
+			<string>comment.line</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b.[A-Z\_]+\b</string>
+			<key>name</key>
+			<string>entity.name.type.class</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.bon</string>
+	<key>uuid</key>
+	<string>70C28272-71A2-48F5-BB3F-DC1310786790</string>
+</dict>
+</plist>
