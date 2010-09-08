@@ -2,15 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>content</key>
-	<string>system_chart $0
-	cluster $1 description "$2"
-end</string>
 	<key>name</key>
-	<string>System Chart</string>
-	<key>tabTrigger</key>
-	<string>sysch</string>
+	<string>Disable Spell Checking</string>
+	<key>settings</key>
+	<dict>
+		<key>spellChecking</key>
+		<integer>0</integer>
+	</dict>
 	<key>uuid</key>
-	<string>715CBD2F-F1BF-4FD7-A81D-F7D613DB0C72</string>
+	<string>22D47E77-E62D-4119-8BAF-D8F34B4FF085</string>
 </dict>
 </plist>

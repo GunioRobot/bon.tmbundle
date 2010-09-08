@@ -11,7 +11,7 @@
 	<key>foldingStopMarker</key>
 	<string>(?i)^\s*+(end).*</string>
 	<key>name</key>
-	<string>BONc</string>
+	<string>BON</string>
 	<key>patterns</key>
 	<array>
 		<dict>

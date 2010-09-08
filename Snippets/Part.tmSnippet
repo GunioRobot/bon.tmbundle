@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>system_chart $0
-	cluster $1 description "$2"
-end</string>
+	<string>part "$0"</string>
 	<key>name</key>
-	<string>System Chart</string>
+	<string>Part</string>
 	<key>tabTrigger</key>
-	<string>sysch</string>
+	<string>par</string>
 	<key>uuid</key>
-	<string>715CBD2F-F1BF-4FD7-A81D-F7D613DB0C72</string>
+	<string>B24F4B37-5E1D-4C2F-A159-A718B6440FFF</string>
 </dict>
 </plist>
