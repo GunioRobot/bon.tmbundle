@@ -1,7 +1,7 @@
 BON Textmate Bundle
 =====================
 
-<em>Please note that this project is still in it's very early stages</em>
+<em>Please note that this project is still in it's very early stages. Only syntax highligting for informal BON is currently supported.</em>
 
 About
 -----
