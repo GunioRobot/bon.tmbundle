@@ -7,7 +7,7 @@
 		<string>bon</string>
 	</array>
 	<key>foldingStartMarker</key>
-	<string>(?i)^\s*+(system_chart|cluster_chart|constraint|creation_chart|scenario_chart|event_chart|class_chart).*</string>
+	<string>(?i)^\s*+(system_chart|cluster_chart|creation_chart|scenario_chart|event_chart|class_chart|static_diagram|dynamic_diagram).*</string>
 	<key>foldingStopMarker</key>
 	<string>(?i)^\s*+(end).*</string>
 	<key>name</key>
@@ -16,7 +16,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(system_chart|cluster_chart|class_chart|constraint|end|cluster|class|indexing|part|query|command|explanation|description|scenario|creation_chart|creator|creates|scenario_chart|involves|event|event_chart|incoming|outgoing)\b</string>
+			<string>\b(cluster_chart|scenario_chart|creation_chart|system_chart|class_chart|event_chart|static_diagram|dynamic_diagram|end|cluster|class|indexing|part|query|command|explanation|description|scenario|creator|creates|involves|event|incoming|outgoing|client|component|inherit|object|calls|deferred|reused|feature|action|constraint|ensure|require)\b</string>
 			<key>name</key>
 			<string>keyword.control.untitled</string>
 		</dict>
@@ -45,9 +45,27 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b.[A-Z\_]+\b</string>
+			<string>\b.[A-Z0-9\_]+\b</string>
 			<key>name</key>
 			<string>entity.name.type.class</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(current|Current|result|Result)\b</string>
+			<key>name</key>
+			<string>support.language.bon</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(.[a-z\_]+\:)</string>
+			<key>name</key>
+			<string>variable.language.bon</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(=|!=|&lt;=|&gt;=|&lt;=&gt;|-&gt;|NOT|EQUAL)</string>
+			<key>name</key>
+			<string>keyword.operator.comparison.bon</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
