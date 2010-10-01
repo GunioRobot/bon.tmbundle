@@ -16,7 +16,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(cluster_chart|scenario_chart|creation_chart|system_chart|class_chart|event_chart|static_diagram|dynamic_diagram|end|cluster|class|indexing|part|query|command|explanation|description|scenario|creator|creates|involves|event|incoming|outgoing|client|component|inherit|object|calls|deferred|reused|feature|action|constraint|ensure|require)\b</string>
+			<string>\b(cluster_chart|scenario_chart|creation_chart|system_chart|class_chart|event_chart|static_diagram|dynamic_diagram|end|cluster|class|indexing|part|query|command|explanation|description|scenario|creator|creates|involves|event|incoming|outgoing|client|component|inherit|object|calls|deferred|reused|feature|action|constraint|ensure|require|invariant)\b</string>
 			<key>name</key>
 			<string>keyword.control.untitled</string>
 		</dict>
@@ -45,27 +45,39 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b.[A-Z0-9\_]+\b</string>
+			<string>\b.[A-Z\_]+?\b</string>
 			<key>name</key>
 			<string>entity.name.type.class</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(current|Current|result|Result)\b</string>
+			<string>\b(current|Current|result|Result|old|Old)\b</string>
 			<key>name</key>
 			<string>support.language.bon</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(.[a-zA-Z\_]+\:)</string>
+			<string>(.[a-zA-Z\_]+.[\w]?\:)</string>
 			<key>name</key>
 			<string>variable.language.bon</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(=|!=|&lt;=|&gt;=|&lt;=&gt;|-&gt;|NOT|EQUAL)</string>
+			<string>(=|!=|&lt;=|&gt;=|&lt;=&gt;|-&gt;|NOT|not|EQUAL|equal|&lt;|&gt;|or|OR|and|AND)</string>
 			<key>name</key>
 			<string>keyword.operator.comparison.bon</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\+|-|/)</string>
+			<key>name</key>
+			<string>keyword.operator.assignment.bon</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\b</string>
+			<key>name</key>
+			<string>constant.numeric.bon</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
