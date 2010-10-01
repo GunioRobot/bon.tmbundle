@@ -57,7 +57,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(.[a-z\_]+\:)</string>
+			<string>(.[a-zA-Z\_]+\:)</string>
 			<key>name</key>
 			<string>variable.language.bon</string>
 		</dict>
