@@ -13,7 +13,7 @@ aim of this project to integrate the bundle with the <a href="http://kind.ucd.ie
 Installation
 ------------
 
-Click on the download source button on the top of the page and move the file to your textmate application support folder.
+Click on the download page in the top of the page and find the latest release. Download the zip file, extract it and move it to your textmate application support folder.
 This should be something like:
 
 <pre><code>~/Library/Application Support/TextMate/Bundles</code></pre>
